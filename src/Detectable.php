@@ -63,11 +63,14 @@ class Detectable
      *  works better, which is our default.
      * @return GdImage|null
      */
-    public function getFace(int $mimum_width = null, float $leniency = 1.5) :? GdImage
+    public function getFace(int $minimum_width = null, float $leniency = 1.5) :? GdImage
     {
         if (!$this->hasFace()) {
-            null;
+            return null;
         }
+        $stats = new ImageStats($this->canvas);
+        $width = $stats->width;
+        $height = $stats->height;
         $facex = $this->face['x'];
         $facey = $this->face['y'];
         $facewidth = $this->face['w'];
@@ -95,7 +98,7 @@ class Detectable
         if ($facey + $cropsize > $height) {
             $facey = $height - $cropsize;
         }
-        return imagecrop($img, ['x' => $facex, 'y' => $facey, 'width' => $cropsize, 'height' => $cropsize]);
+        return imagecrop($this->canvas, ['x' => $facex, 'y' => $facey, 'width' => $cropsize, 'height' => $cropsize]);
     }
 
     /**
