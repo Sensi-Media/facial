@@ -16,17 +16,11 @@ class ImageStats
     protected array $ii2;
 
     /**
-    * @param resource|GdImage $canvas
+    * @param GdImage $canvas
     * @return void
-    * @throws DomainException
     */
-    public function __construct($canvas)
+    public function __construct(GdImage $canvas)
     {
-        if (PHP_VERSION_ID < 80000 && !is_resource($canvas)) {
-            throw new DomainException('$canvas must be a resource');
-        } elseif (PHP_VERSION_ID >= 80000 && !($canvas instanceof GdImage)) {
-            throw new DomainException('$canvas must be an instance of GdImage');
-        }
         $image_width = imagesx($canvas);
         $image_height = imagesy($canvas);
         $iis = $this->computeII($canvas, $image_width, $image_height);
