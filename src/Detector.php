@@ -108,14 +108,9 @@ class Detector
     /**
      * @param GdImage $canvas
      * @return array|null
-     * @throws Exception
      */
     protected function detectFace(GdImage $canvas) :? array
     {
-        if (!isset($canvas)) {
-            throw new Exception("Canvas not set! Initialize with one of the fromXXX methods");
-        }
-
         $im_width = imagesx($canvas);
         $im_height = imagesy($canvas);
 
