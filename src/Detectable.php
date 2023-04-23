@@ -68,9 +68,8 @@ class Detectable
         if (!$this->hasFace()) {
             return null;
         }
-        $stats = new ImageStats($this->canvas);
-        $width = $stats->width;
-        $height = $stats->height;
+        $width = imagesx($this->canvas);
+        $height = imagesy($this->canvas);
         $facex = $this->face['x'];
         $facey = $this->face['y'];
         $facewidth = $this->face['w'];
