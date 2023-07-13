@@ -72,7 +72,7 @@ class Detector
      */
     public function fromResource(GdImage $resource) : Detectable
     {
-        return new Detectable($resource, $this->detectFace($canvas));
+        return new Detectable($resource, $this->detectFace($resource));
     }
 
     /**
