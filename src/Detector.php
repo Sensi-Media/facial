@@ -98,7 +98,7 @@ class Detector
      */
     public function fromString(string $string) : Detectable
     {
-        $canvas = imagecreatefromstring($file);
+        $canvas = imagecreatefromstring($string);
         if (!$canvas) {
             throw new DomainException("$string does not contain a valid image");
         }
