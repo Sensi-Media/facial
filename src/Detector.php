@@ -42,7 +42,7 @@ class Detector
      * @return void
      * @throws Exception
      */
-    public function __construct(string|array $detection_data = null)
+    public function __construct(string|array|null $detection_data = null)
     {
         if (is_null($detection_data)) {
             $detection_data = dirname(__DIR__).'/resources/detection.dat';
