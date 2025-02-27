@@ -9,16 +9,16 @@
     "packages-dev": [
         {
             "name": "monolyth/cliff",
-            "version": "0.7.9",
+            "version": "0.7.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/cliff.git",
-                "reference": "ea061cd7d6121221c0bb6d9244838474a4ebbe13"
+                "reference": "4923e408e35885eec9ce482dae7b08663cbe56e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/cliff/zipball/ea061cd7d6121221c0bb6d9244838474a4ebbe13",
-                "reference": "ea061cd7d6121221c0bb6d9244838474a4ebbe13",
+                "url": "https://api.github.com/repos/monolyth-php/cliff/zipball/4923e408e35885eec9ce482dae7b08663cbe56e6",
+                "reference": "4923e408e35885eec9ce482dae7b08663cbe56e6",
                 "shasum": ""
             },
             "require": {
@@ -52,9 +52,9 @@
             "description": "Command line interface for Monolyth unframework",
             "support": {
                 "issues": "https://github.com/monolyth-php/cliff/issues",
-                "source": "https://github.com/monolyth-php/cliff/tree/0.7.9"
+                "source": "https://github.com/monolyth-php/cliff/tree/0.7.10"
             },
-            "time": "2023-02-01T14:29:51+00:00"
+            "time": "2025-02-26T15:23:35+00:00"
         },
         {
             "name": "monomelodies/kingconf",
@@ -206,20 +206,20 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.27.0",
+            "version": "v1.31.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "5bbc823adecdae860bb64756d639ecfec17b050a"
+                "reference": "a3cc8b044a6ea513310cbd48ef7333b384945638"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/5bbc823adecdae860bb64756d639ecfec17b050a",
-                "reference": "5bbc823adecdae860bb64756d639ecfec17b050a",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/a3cc8b044a6ea513310cbd48ef7333b384945638",
+                "reference": "a3cc8b044a6ea513310cbd48ef7333b384945638",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.2"
             },
             "provide": {
                 "ext-ctype": "*"
@@ -229,12 +229,9 @@
             },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-main": "1.27-dev"
-                },
                 "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
                 }
             },
             "autoload": {
@@ -268,7 +265,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.27.0"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.31.0"
             },
             "funding": [
                 {
@@ -284,7 +281,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-03T14:55:06+00:00"
+            "time": "2024-09-09T11:45:10+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -359,16 +356,16 @@
         },
         {
             "name": "toast/unit",
-            "version": "2.2.1",
+            "version": "2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/toast-php/unit.git",
-                "reference": "aabdb6913a38b67ef425da7b0f4443dff6f56805"
+                "reference": "c8eb5b11a8ae6cb14c084169e1cbe39e934086b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/toast-php/unit/zipball/aabdb6913a38b67ef425da7b0f4443dff6f56805",
-                "reference": "aabdb6913a38b67ef425da7b0f4443dff6f56805",
+                "url": "https://api.github.com/repos/toast-php/unit/zipball/c8eb5b11a8ae6cb14c084169e1cbe39e934086b5",
+                "reference": "c8eb5b11a8ae6cb14c084169e1cbe39e934086b5",
                 "shasum": ""
             },
             "require": {
@@ -399,22 +396,22 @@
             "description": "Super-simple unit testing for PHP7",
             "support": {
                 "issues": "https://github.com/toast-php/unit/issues",
-                "source": "https://github.com/toast-php/unit/tree/2.2.1"
+                "source": "https://github.com/toast-php/unit/tree/2.2.2"
             },
-            "time": "2022-07-07T12:37:51+00:00"
+            "time": "2025-02-26T15:16:14+00:00"
         },
         {
             "name": "ulrichsg/getopt-php",
-            "version": "v4.0.3",
+            "version": "v4.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getopt-php/getopt-php.git",
-                "reference": "91c31c9bc0ff9bbe22b0b02c63c7f5ddb8d2a8d5"
+                "reference": "9313ecde04f7bed262716e3a4d32a5e2cea3ffad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getopt-php/getopt-php/zipball/91c31c9bc0ff9bbe22b0b02c63c7f5ddb8d2a8d5",
-                "reference": "91c31c9bc0ff9bbe22b0b02c63c7f5ddb8d2a8d5",
+                "url": "https://api.github.com/repos/getopt-php/getopt-php/zipball/9313ecde04f7bed262716e3a4d32a5e2cea3ffad",
+                "reference": "9313ecde04f7bed262716e3a4d32a5e2cea3ffad",
                 "shasum": ""
             },
             "require": {
@@ -450,20 +447,20 @@
             "homepage": "http://getopt-php.github.io/getopt-php",
             "support": {
                 "issues": "https://github.com/getopt-php/getopt-php/issues",
-                "source": "https://github.com/getopt-php/getopt-php/tree/v4.0.3"
+                "source": "https://github.com/getopt-php/getopt-php/tree/v4.0.4"
             },
-            "time": "2022-12-13T20:37:45+00:00"
+            "time": "2025-02-11T14:42:04+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=8.2",
         "ext-gd": "*"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
