@@ -63,7 +63,7 @@ class Detectable
      *  works better, which is our default.
      * @return GdImage|null
      */
-    public function getFace(int $minimum_width = null, float $leniency = 1.5) :? GdImage
+    public function getFace(?int $minimum_width = null, float $leniency = 1.5) :? GdImage
     {
         if (!$this->hasFace()) {
             return null;
